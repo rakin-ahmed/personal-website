@@ -2,34 +2,33 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0em;
 }
-.top-banner{
+.first-part{
     background-image: url(images/header-bg.png);
     background-repeat: no-repeat;
+    background-position: unset;
 }
 h1{
     font-size: 50px;
+    margin: 0em;
 }
 h2{
     font-size: 40px;
 }
 p{
     color: dimgrey;
+    text-align: justify;
 }
 .name-highlight{
     color: tomato;
 }
-.half-width{
-    width: 38%;
-    float: left;
-    margin-left: 4%;
+.fphalf{
+    width: 34%;
+    margin-left: 7%;
     padding: 3%;
+    float: left;
 }
-.half-width img{
+.fphalf img{
     width: 100%;
-}
-.top-banner{
-    background-image: url("images/top-banner.png");
-    background-repeat: no-repeat;
 }
 section{
     height: 500px;
@@ -42,4 +41,74 @@ section{
     border-radius: 10px;
     color: white;
     font-weight: 700;
+}
+.biography{
+    background-image: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+    background-position: unset;
+
+}
+.bhalf{
+    width: 34%;
+    margin-left: 7%;
+    margin-top: 2%;
+    padding: 3%;
+    float: left;
+}
+.bhalf img{
+    width: 100%;
+}
+.latest-work{
+    text-align: center;
+    background-image: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-position: unset;
+
+}
+#lw-header{
+    margin-top: 10%;
+}
+.lw-onethird{
+    width: 25%;
+    float: left;
+    margin-left: 2%;
+    margin-top: 4%;
+}
+.lw-onethird img{
+    width: 100%;
+}
+#lw-one{
+    padding-left: 9%;
+}
+.compliment{
+    background-image: url(images/footer-bg.png);
+    background-repeat: no-repeat;
+    text-align: center;
+    background-position: unset;
+}
+.client-comment{
+    text-align: justify;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+#client-name{
+    text-align: right;
+}
+.email-area{
+    margin-left: 30%;
+    background-color: lightsalmon;
+    margin-right: 30%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 52%;
+    text-align: center;
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 15%;
+    margin-top: 10%;
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
 }
